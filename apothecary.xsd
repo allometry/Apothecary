@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="level">
+    <xs:complexType mixed="true" />
+  </xs:element>
+
   <xs:element name="name">
     <xs:complexType mixed="true" />
   </xs:element>
@@ -11,6 +15,7 @@
         <xs:element ref="name" />
         <xs:element ref="primaryIngredient" />
         <xs:element ref="secondaryIngredient" />
+        <xs:element ref="level" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>

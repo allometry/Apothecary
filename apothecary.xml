@@ -1,7 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <potions xmlns="http://scripts.allometry.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://scripts.allometry.com/app/webroot/xml/apothecary.xsd">
 	<potion>
+		<name>Attack Potion</name>
+		<primaryIngredient name="Ranarr Weed">0000</primaryIngredient>
+		<secondaryIngredient name="Snape Grass">0000</secondaryIngredient>
+		<level>3</level>
+	</potion>
+	<potion>
+		<name>Antipoison</name>
+		<primaryIngredient name="Ranarr Weed">0000</primaryIngredient>
+		<secondaryIngredient name="Snape Grass">0000</secondaryIngredient>
+		<level>3</level>
+	</potion>
+	<potion>
+		<name>Relicym's Balm</name>
+		<primaryIngredient name="Ranarr Weed">0000</primaryIngredient>
+		<secondaryIngredient name="Snape Grass">0000</secondaryIngredient>
+	</potion>
+	<potion>
+		<name>Strength Potion</name>
+		<primaryIngredient name="Ranarr Weed">0000</primaryIngredient>
+		<secondaryIngredient name="Snape Grass">0000</secondaryIngredient>
+	</potion>
+	<potion>
+		<name>Serum 207</name>
+		<primaryIngredient name="Ranarr Weed">0000</primaryIngredient>
+		<secondaryIngredient name="Snape Grass">0000</secondaryIngredient>
+	</potion>
+	<potion>
+		<name>Restore Potion</name>
+		<primaryIngredient name="Ranarr Weed">0000</primaryIngredient>
+		<secondaryIngredient name="Snape Grass">0000</secondaryIngredient>
+	</potion>
+	<potion>
+		<name>Energy Potion</name>
+		<primaryIngredient name="Ranarr Weed">0000</primaryIngredient>
+		<secondaryIngredient name="Snape Grass">0000</secondaryIngredient>
+	</potion>
+	<potion>
+		<name>Defense Potion</name>
+		<primaryIngredient name="Ranarr Weed">0000</primaryIngredient>
+		<secondaryIngredient name="Snape Grass">0000</secondaryIngredient>
+	</potion>
+	<potion>
+		<name>Agility Potion</name>
+		<primaryIngredient name="Ranarr Weed">0000</primaryIngredient>
+		<secondaryIngredient name="Snape Grass">0000</secondaryIngredient>
+	</potion>
+	<potion>
+		<name>Combat Potion</name>
+		<primaryIngredient name="Ranarr Weed">0000</primaryIngredient>
+		<secondaryIngredient name="Snape Grass">0000</secondaryIngredient>
+	</potion>
+	<potion>
 		<name>Prayer Potion</name>
+		<primaryIngredient name="Ranarr Weed">0000</primaryIngredient>
+		<secondaryIngredient name="Snape Grass">0000</secondaryIngredient>
+	</potion>
+	<potion>
+		<name>Summoning Potion</name>
+		<primaryIngredient name="Ranarr Weed">0000</primaryIngredient>
+		<secondaryIngredient name="Snape Grass">0000</secondaryIngredient>
+	</potion>
+	<potion>
+		<name>Crafting Potion</name>
+		<primaryIngredient name="Ranarr Weed">0000</primaryIngredient>
+		<secondaryIngredient name="Snape Grass">0000</secondaryIngredient>
+	</potion>
+	<potion>
+		<name>Super Attack Potion</name>
+		<primaryIngredient name="Ranarr Weed">0000</primaryIngredient>
+		<secondaryIngredient name="Snape Grass">0000</secondaryIngredient>
+	</potion>
+	<potion>
+		<name>Super Antipoison</name>
+		<primaryIngredient name="Ranarr Weed">0000</primaryIngredient>
+		<secondaryIngredient name="Snape Grass">0000</secondaryIngredient>
+	</potion>
+	<potion>
+		<name>Fishing Potion</name>
+		<primaryIngredient name="Ranarr Weed">0000</primaryIngredient>
+		<secondaryIngredient name="Snape Grass">0000</secondaryIngredient>
+	</potion>
+	<potion>
+		<name>Super Energy Potion</name>
+		<primaryIngredient name="Ranarr Weed">0000</primaryIngredient>
+		<secondaryIngredient name="Snape Grass">0000</secondaryIngredient>
+	</potion>
+	<potion>
+		<name>Hunter Potion</name>
+		<primaryIngredient name="Ranarr Weed">0000</primaryIngredient>
+		<secondaryIngredient name="Snape Grass">0000</secondaryIngredient>
+	</potion>
+	<potion>
+		<name>Super Strength Potion</name>
 		<primaryIngredient name="Ranarr Weed">0000</primaryIngredient>
 		<secondaryIngredient name="Snape Grass">0000</secondaryIngredient>
 	</potion>
