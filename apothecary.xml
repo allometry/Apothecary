@@ -2,99 +2,68 @@
 <potions xmlns="http://scripts.allometry.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://scripts.allometry.com/app/webroot/xml/apothecary.xsd">
 	<potion>
 		<name>Attack Potion</name>
-		<primaryIngredient name="Ranarr Weed">0000</primaryIngredient>
-		<secondaryIngredient name="Snape Grass">0000</secondaryIngredient>
+		<primaryIngredient name="Guam Leaf">0000</primaryIngredient>
+		<secondaryIngredient name="Eye of Newt">0000</secondaryIngredient>
 		<level>3</level>
 	</potion>
 	<potion>
 		<name>Antipoison</name>
-		<primaryIngredient name="Ranarr Weed">0000</primaryIngredient>
-		<secondaryIngredient name="Snape Grass">0000</secondaryIngredient>
-		<level>3</level>
+		<primaryIngredient name="Marrentill">0000</primaryIngredient>
+		<secondaryIngredient name="Unicorn Horn Dust">0000</secondaryIngredient>
+		<level>5</level>
 	</potion>
 	<potion>
 		<name>Relicym's Balm</name>
-		<primaryIngredient name="Ranarr Weed">0000</primaryIngredient>
-		<secondaryIngredient name="Snape Grass">0000</secondaryIngredient>
+		<primaryIngredient name="Rogue's Purse">0000</primaryIngredient>
+		<secondaryIngredient name="Snakeweed">0000</secondaryIngredient>
+		<level>8</level>
 	</potion>
 	<potion>
 		<name>Strength Potion</name>
-		<primaryIngredient name="Ranarr Weed">0000</primaryIngredient>
-		<secondaryIngredient name="Snape Grass">0000</secondaryIngredient>
+		<primaryIngredient name="Tarromin">0000</primaryIngredient>
+		<secondaryIngredient name="Limpwurt Root">0000</secondaryIngredient>
+		<level>12</level>
 	</potion>
 	<potion>
 		<name>Serum 207</name>
-		<primaryIngredient name="Ranarr Weed">0000</primaryIngredient>
-		<secondaryIngredient name="Snape Grass">0000</secondaryIngredient>
+		<primaryIngredient name="Tarromin">0000</primaryIngredient>
+		<secondaryIngredient name="Ashes">0000</secondaryIngredient>
+		<level>15</level>
 	</potion>
 	<potion>
 		<name>Restore Potion</name>
-		<primaryIngredient name="Ranarr Weed">0000</primaryIngredient>
-		<secondaryIngredient name="Snape Grass">0000</secondaryIngredient>
+		<primaryIngredient name="Harralander">0000</primaryIngredient>
+		<secondaryIngredient name="Red Spider Eggs">0000</secondaryIngredient>
+		<level>22</level>
 	</potion>
 	<potion>
 		<name>Energy Potion</name>
-		<primaryIngredient name="Ranarr Weed">0000</primaryIngredient>
-		<secondaryIngredient name="Snape Grass">0000</secondaryIngredient>
+		<primaryIngredient name="Harralander">0000</primaryIngredient>
+		<secondaryIngredient name="Chocolate Dust">0000</secondaryIngredient>
+		<level>26</level>
 	</potion>
 	<potion>
 		<name>Defense Potion</name>
 		<primaryIngredient name="Ranarr Weed">0000</primaryIngredient>
-		<secondaryIngredient name="Snape Grass">0000</secondaryIngredient>
+		<secondaryIngredient name="Whiteberries">0000</secondaryIngredient>
+		<level>30</level>
 	</potion>
 	<potion>
 		<name>Agility Potion</name>
-		<primaryIngredient name="Ranarr Weed">0000</primaryIngredient>
-		<secondaryIngredient name="Snape Grass">0000</secondaryIngredient>
+		<primaryIngredient name="Toadflax">0000</primaryIngredient>
+		<secondaryIngredient name="Toad's Legs">0000</secondaryIngredient>
+		<level>34</level>
 	</potion>
 	<potion>
 		<name>Combat Potion</name>
-		<primaryIngredient name="Ranarr Weed">0000</primaryIngredient>
-		<secondaryIngredient name="Snape Grass">0000</secondaryIngredient>
+		<primaryIngredient name="Harralander">0000</primaryIngredient>
+		<secondaryIngredient name="Ground Goat's Horn">0000</secondaryIngredient>
+		<level>36</level>
 	</potion>
 	<potion>
 		<name>Prayer Potion</name>
 		<primaryIngredient name="Ranarr Weed">0000</primaryIngredient>
 		<secondaryIngredient name="Snape Grass">0000</secondaryIngredient>
-	</potion>
-	<potion>
-		<name>Summoning Potion</name>
-		<primaryIngredient name="Ranarr Weed">0000</primaryIngredient>
-		<secondaryIngredient name="Snape Grass">0000</secondaryIngredient>
-	</potion>
-	<potion>
-		<name>Crafting Potion</name>
-		<primaryIngredient name="Ranarr Weed">0000</primaryIngredient>
-		<secondaryIngredient name="Snape Grass">0000</secondaryIngredient>
-	</potion>
-	<potion>
-		<name>Super Attack Potion</name>
-		<primaryIngredient name="Ranarr Weed">0000</primaryIngredient>
-		<secondaryIngredient name="Snape Grass">0000</secondaryIngredient>
-	</potion>
-	<potion>
-		<name>Super Antipoison</name>
-		<primaryIngredient name="Ranarr Weed">0000</primaryIngredient>
-		<secondaryIngredient name="Snape Grass">0000</secondaryIngredient>
-	</potion>
-	<potion>
-		<name>Fishing Potion</name>
-		<primaryIngredient name="Ranarr Weed">0000</primaryIngredient>
-		<secondaryIngredient name="Snape Grass">0000</secondaryIngredient>
-	</potion>
-	<potion>
-		<name>Super Energy Potion</name>
-		<primaryIngredient name="Ranarr Weed">0000</primaryIngredient>
-		<secondaryIngredient name="Snape Grass">0000</secondaryIngredient>
-	</potion>
-	<potion>
-		<name>Hunter Potion</name>
-		<primaryIngredient name="Ranarr Weed">0000</primaryIngredient>
-		<secondaryIngredient name="Snape Grass">0000</secondaryIngredient>
-	</potion>
-	<potion>
-		<name>Super Strength Potion</name>
-		<primaryIngredient name="Ranarr Weed">0000</primaryIngredient>
-		<secondaryIngredient name="Snape Grass">0000</secondaryIngredient>
+		<level>38</level>
 	</potion>
 </potions>

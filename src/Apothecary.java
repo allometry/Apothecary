@@ -16,8 +16,6 @@ import org.xml.sax.XMLReader;
 import org.xml.sax.helpers.DefaultHandler;
 import org.xml.sax.helpers.XMLReaderFactory;
 
-import com.sun.org.apache.xalan.internal.xsltc.runtime.AttributeList;
-
 @ScriptManifest(authors = { "Allometry" }, category = "!Herblore", name = "Apothecary", version = 1.0,
 		description = "" +
 				"<html>" +
@@ -78,7 +76,7 @@ public class Apothecary extends Script implements PaintListener {
 	}
 		
 	public class Potion {
-		private int primaryIngredient, secondaryIngredient;
+		private int primaryIngredient, secondaryIngredient, level;
 		private String name;
 		
 		public int getPrimaryIngredient() {
@@ -97,6 +95,14 @@ public class Apothecary extends Script implements PaintListener {
 			this.secondaryIngredient = secondaryIngredient;
 		}
 		
+		public int getLevel() {
+			return level;
+		}
+		
+		public void setLevel(int level) {
+			this.level = level;
+		}
+		
 		public String getName() {
 			return name;
 		}
@@ -106,18 +112,10 @@ public class Apothecary extends Script implements PaintListener {
 		}
 		
 		public String toString() {
-			return "[Name: " + name + ", Primary Ingredient: " + primaryIngredient + ", Secondary Ingredient: " + secondaryIngredient + "]";
+			return "[Name: " + name + ", Primary Ingredient: " + primaryIngredient + ", Secondary Ingredient: " + secondaryIngredient + ", Level: " + level + "]";
 		}
 	}
-	
-	public class Potions {
-		private ArrayList<Potion> potions = new ArrayList<Potion>();
-
-		public void addPotion(Potion potion) {
-			potions.add(potion);
-		}
-	}
-	
+		
 	public class PotionHandler extends DefaultHandler {
 		private ArrayList<Potion> potions = new ArrayList<Potion>();
 		private Potion potion;
@@ -144,6 +142,8 @@ public class Apothecary extends Script implements PaintListener {
 				potion.setPrimaryIngredient(Integer.parseInt(elementValue));
 			else if(potionElement.equalsIgnoreCase("secondaryIngredient"))
 				potion.setSecondaryIngredient(Integer.parseInt(elementValue));
+			else if(potionElement.equalsIgnoreCase("level"))
+				potion.setLevel(Integer.parseInt(elementValue));
 		}
 		
 		public void endElement(String uri, String name, String qName) {
